@@ -14,7 +14,7 @@ void draw() {
 
 void balloon(int positionX, int positionY,int size,int tailSize){
   
-  ellipse(positionX, positionY, size, balloonSize); //draw circle in center of canvas by use variable 
+  ellipse(positionX, positionY, size, size); //draw circle in center of canvas by use variable 
   rect(positionX, positionY + (size/2), 1, tailSize);   // draw line from circle  by use variable 
   //tail it start form radius of  balloon
 }
